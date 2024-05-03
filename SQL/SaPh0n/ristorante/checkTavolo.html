@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visualizza Tavoli e Prenotazioni</title>
+</head>
+<body>
+    <h1>Visualizza Tavoli Disponibili</h1>
+    <form action="php/checkTavolo.php" method="post">
+        <label for="data">Data:</label><br>
+        <input type="date" id="data" name="data" required><br>
+        <input type="submit" value="Visualizza">
+    </form>
+
+    <h1>Ricerca Prenotazioni</h1>
+    <form action="php/searchTavolo.php" method="post">
+        <label for="nome">Nome Cliente:</label><br>
+        <input type="text" id="nome" name="nome"><br>
+        <label for="data">Data:</label><br>
+        <input type="date" id="data" name="data"><br>
+        <input type="submit" value="Ricerca">
+    </form>
+</body>
+</html>

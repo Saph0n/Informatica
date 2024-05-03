@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modifica Prenotazione</title>
+</head>
+<body>
+    <h1>Modifica Prenotazione</h1>
+    <form action="php/updatePrenotazione.php" method="post">
+        <label for="nome">Nome Cliente:</label><br>
+        <input type="text" id="nome" name="nome" required><br>
+        <label for="giorno">Nuova Data:</label><br>
+        <input type="date" id="giorno" name="giorno" required><br>
+        <label for="persone">Nuovo Numero di Persone:</label><br>
+        <input type="number" id="persone" name="persone" min="1" required><br>
+        <input type="submit" value="Modifica">
+    </form>
+</body>
+</html>

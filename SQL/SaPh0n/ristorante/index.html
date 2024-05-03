@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pulsanti per le pagine</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+        button {
+            margin: 10px;
+            padding: 15px 25px;
+            font-size: 18px;
+            border: none;
+            color: #000;
+            background-color: #fff;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        button:hover {
+            background-color: #666;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <button onclick="location.href='bookTavolo.html'">Prenota tavolo</button>
+    <button onclick="location.href='checkTavolo.html'">Vedi Prenotazioni</button>
+    <button onclick="location.href='updatePrenotazione.html'">Modifica tavoli</button>
+    <button onclick="location.href='deletePrenotazione.html'">Cancella prenotazione</button>
+</body>
+</html>

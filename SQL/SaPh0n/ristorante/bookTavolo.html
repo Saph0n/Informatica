@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prenotazione Tavolo</title>
+</head>
+<body>
+    <h1>Prenotazione Tavolo</h1>
+    <form action="php/bookTavolo.php" method="post">
+        <label for="nome">Nome Cliente:</label><br>
+        <input type="text" id="nome" name="nome" required><br>
+        <label for="email">Email Cliente:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="data">Data Prenotazione:</label><br>
+        <input type="date" id="data" name="data" required><br>
+        <label for="posti">Numero di Posti:</label><br>
+        <input type="number" id="posti" name="posti" min="1" required><br>
+        <input type="submit" value="Prenota">
+    </form>
+</body>
+</html>
