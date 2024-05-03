@@ -22,7 +22,7 @@ Ogni cartella corrisponde a un argomento specifico trattato durante le verifiche
 
 ## 🛠 Tecnologie Utilizzate
 
-- `Linguaggi di Programmazione`: Python, Java, C++.
+- `Linguaggi di Programmazione`: Python, Java, C++, PHP,.
 - `Database`: MySQL, MongoDB.
 - `Strumenti`: Git, Docker, Jupyter Notebook.
 
